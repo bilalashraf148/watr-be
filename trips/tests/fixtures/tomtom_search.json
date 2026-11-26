@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "query": "chicago",
+    "queryType": "NON_NEAR",
+    "queryTime": 21,
+    "numResults": 2,
+    "offset": 0,
+    "totalResults": 2,
+    "fuzzyLevel": 1
+  },
+  "results": [
+    {
+      "type": "Geography",
+      "id": "US/GEO/p0/123",
+      "score": 9.52,
+      "entityType": "Municipality",
+      "address": {
+        "municipality": "Chicago",
+        "countrySubdivision": "IL",
+        "countryCode": "US",
+        "country": "United States",
+        "freeformAddress": "Chicago, IL"
+      },
+      "position": {"lat": 41.8781, "lon": -87.6298}
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/456",
+      "score": 5.13,
+      "poi": {"name": "Pilot Travel Center", "categories": ["petrol station"]},
+      "address": {
+        "streetNumber": "1205",
+        "streetName": "Houbolt Rd",
+        "municipality": "Joliet",
+        "countrySubdivision": "IL",
+        "postalCode": "60431",
+        "freeformAddress": "1205 Houbolt Rd, Joliet, IL 60431"
+      },
+      "position": {"lat": 41.5101, "lon": -88.1823}
+    }
+  ]
+}

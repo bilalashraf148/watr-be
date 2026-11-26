@@ -1,0 +1,100 @@
+{
+  "formatVersion": "0.0.12",
+  "routes": [
+    {
+      "summary": {
+        "lengthInMeters": 20000,
+        "travelTimeInSeconds": 1200,
+        "trafficDelayInSeconds": 0,
+        "trafficLengthInMeters": 0,
+        "departureTime": "2026-11-26T08:00:00-06:00",
+        "arrivalTime": "2026-11-26T08:20:00-06:00"
+      },
+      "legs": [
+        {
+          "summary": {
+            "lengthInMeters": 12000,
+            "travelTimeInSeconds": 800,
+            "departureTime": "2026-11-26T08:00:00-06:00",
+            "arrivalTime": "2026-11-26T08:13:20-06:00"
+          },
+          "points": [
+            {"latitude": 41.87810, "longitude": -87.62980},
+            {"latitude": 41.85000, "longitude": -87.65000},
+            {"latitude": 41.82000, "longitude": -87.70000}
+          ]
+        },
+        {
+          "summary": {
+            "lengthInMeters": 8000,
+            "travelTimeInSeconds": 400,
+            "departureTime": "2026-11-26T08:13:20-06:00",
+            "arrivalTime": "2026-11-26T08:20:00-06:00"
+          },
+          "points": [
+            {"latitude": 41.82000, "longitude": -87.70000},
+            {"latitude": 41.80000, "longitude": -87.75000}
+          ]
+        }
+      ],
+      "sections": [
+        {"startPointIndex": 0, "endPointIndex": 3, "sectionType": "TRAVEL_MODE", "travelMode": "truck"}
+      ],
+      "guidance": {
+        "instructions": [
+          {
+            "routeOffsetInMeters": 0,
+            "travelTimeInSeconds": 0,
+            "point": {"latitude": 41.87810, "longitude": -87.62980},
+            "pointIndex": 0,
+            "instructionType": "LOCATION_DEPARTURE",
+            "maneuver": "DEPART"
+          },
+          {
+            "routeOffsetInMeters": 8000,
+            "travelTimeInSeconds": 600,
+            "point": {"latitude": 41.85000, "longitude": -87.65000},
+            "pointIndex": 1,
+            "instructionType": "TURN",
+            "maneuver": "TURN_RIGHT"
+          },
+          {
+            "routeOffsetInMeters": 20000,
+            "travelTimeInSeconds": 1200,
+            "point": {"latitude": 41.80000, "longitude": -87.75000},
+            "pointIndex": 3,
+            "instructionType": "LOCATION_ARRIVAL",
+            "maneuver": "ARRIVE"
+          }
+        ],
+        "instructionGroups": []
+      }
+    },
+    {
+      "summary": {
+        "lengthInMeters": 23000,
+        "travelTimeInSeconds": 1500,
+        "trafficDelayInSeconds": 60,
+        "trafficLengthInMeters": 900,
+        "departureTime": "2026-11-26T08:00:00-06:00",
+        "arrivalTime": "2026-11-26T08:25:00-06:00"
+      },
+      "legs": [
+        {
+          "summary": {
+            "lengthInMeters": 23000,
+            "travelTimeInSeconds": 1500,
+            "departureTime": "2026-11-26T08:00:00-06:00",
+            "arrivalTime": "2026-11-26T08:25:00-06:00"
+          },
+          "points": [
+            {"latitude": 41.87810, "longitude": -87.62980},
+            {"latitude": 41.90000, "longitude": -87.70000},
+            {"latitude": 41.80000, "longitude": -87.75000}
+          ]
+        }
+      ],
+      "sections": []
+    }
+  ]
+}
